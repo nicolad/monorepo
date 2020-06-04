@@ -1,6 +1,7 @@
 {
   "name": "@nicolad/ui",
   "repository": "https://github.com/nicolad/monorepo.git",
+  "private": true,
   "version": "0.0.7",
   "description": "a UI library for my monorepo",
   "main": "./lib/index.js",

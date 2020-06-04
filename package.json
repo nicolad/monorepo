@@ -4,6 +4,7 @@
   "description": "Starter for Monorepos: Lerna, TypeScript, CRA and Storybook",
   "main": "index.js",
   "repository": "https://github.com/nicolad/monorepo.git",
+  "private": true,
   "author": "nicolad",
   "license": "MIT",
   "publishConfig": {
