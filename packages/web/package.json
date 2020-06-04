@@ -1,5 +1,5 @@
 {
-  "name": "@nicolad/web",
+  "name": "web",
   "version": "0.0.4",
   "dependencies": {
     "@my-org/ui": "*",
@@ -35,5 +35,5 @@
     "@types/react-dom": "^16.9.2",
     "typescript": "^3.6.4"
   },
-  "gitHead": "de1d00a9687b08da1209bdbc5ec80dd9b2917854"
+  "gitHead": "72aa721d275b08769d124ee18789169ae33b9b3a"
 }
