@@ -1,5 +1,6 @@
 {
   "name": "@nicolad/web",
+  "repository": "https://github.com/nicolad/monorepo.git",
   "version": "0.0.6",
   "dependencies": {
     "@my-org/ui": "*",
@@ -35,5 +36,5 @@
     "@types/react-dom": "^16.9.2",
     "typescript": "^3.6.4"
   },
-  "gitHead": "72aa721d275b08769d124ee18789169ae33b9b3a"
+  "gitHead": "3c9a11a9f7f519fda51dac1a177c83d9bac6ded7"
 }

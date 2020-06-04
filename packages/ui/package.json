@@ -1,5 +1,6 @@
 {
   "name": "@nicolad/ui",
+  "repository": "https://github.com/nicolad/monorepo.git",
   "version": "0.0.6",
   "description": "a UI library for my monorepo",
   "main": "./lib/index.js",
@@ -24,5 +25,5 @@
     "@storybook/react": "^5.3.19",
     "babel-loader": "^8.1.0"
   },
-  "gitHead": "b1627e972bb0f5711ba6933739ecca2a3ddf99c5"
+  "gitHead": "3c9a11a9f7f519fda51dac1a177c83d9bac6ded7"
 }
