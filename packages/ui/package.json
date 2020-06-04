@@ -1,7 +1,7 @@
 {
   "name": "@nicolad/ui",
   "repository": "https://github.com/nicolad/monorepo.git",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "a UI library for my monorepo",
   "main": "./lib/index.js",
   "module": "./lib-esm/index.js",

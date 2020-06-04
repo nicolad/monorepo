@@ -1,7 +1,7 @@
 {
   "name": "@nicolad/web",
   "repository": "https://github.com/nicolad/monorepo.git",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "dependencies": {
     "@my-org/ui": "*",
     "react": "^16.11.0",
