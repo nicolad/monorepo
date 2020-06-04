@@ -5,7 +5,6 @@ export interface MyNewComponentProps {
 }
 
 export const MyNewComponent = (props: MyNewComponentProps) => {
-  console.log("bla");
   return <span>{props.text}</span>;
 };
 
