@@ -3,9 +3,9 @@
   "repository": "https://github.com/nicolad/monorepo.git",
   "author": "Vadim Nicolai <nicolai.vadim@gmail.com>",
   "private": false,
-  "version": "0.0.11",
+  "version": "0.0.12",
   "dependencies": {
-    "@nicolad/ui": "^0.0.11",
+    "@nicolad/ui": "^0.0.12",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
     "react-scripts": "3.4.1"
