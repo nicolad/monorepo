@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
-import { MyNewComponent } from "@my-org/ui";
+import { MyNewComponent } from "@nicolad/ui";
 
 function App() {
   return (

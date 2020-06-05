@@ -12,7 +12,8 @@
   "scripts": {
     "story": "start-storybook",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "libbuild": "tsc && tsc --build tsconfig.esm.json"
   },
   "peerDependencies": {
     "react": "^16.11.0",
