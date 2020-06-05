@@ -1,31 +1,61 @@
 {
   "name": "@nicolad/ui",
-  "repository": "https://github.com/nicolad/monorepo.git",
-  "private": true,
-  "version": "0.0.9",
-  "description": "a UI library for my monorepo",
-  "main": "./lib/index.js",
-  "module": "./lib-esm/index.js",
-  "types": "./lib/index.d.ts",
-  "author": "shnyder.com",
-  "license": "MIT",
-  "scripts": {
-    "story": "start-storybook",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook",
-    "libbuild": "tsc && tsc --build tsconfig.esm.json"
+  "version": "0.1.0",
+  "private": false,
+  "dependencies": {
+    "@babel/cli": "^7.5.5",
+    "polished": "^3.4.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-scripts": "3.1.1",
+    "styled-components": "^4.3.2"
   },
-  "peerDependencies": {
-    "react": "^16.11.0",
-    "react-dom": "^16.11.0"
+  "scripts": {
+    "build": "BABEL_ENV=production babel src -d dist",
+    "prepare": "npm run build",
+    "test": "react-scripts test",
+    "storybook": "start-storybook -p 9009 -s public",
+    "build-storybook": "build-storybook -s public",
+    "build-storybook-docs": "build-storybook -s public --docs",
+    "release": "auto shipit"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "babel": {
+    "presets": [
+      "react-app"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   },
   "devDependencies": {
-    "@babel/core": "^7.10.2",
-    "@storybook/addon-actions": "^5.3.19",
-    "@storybook/addon-links": "^5.3.19",
-    "@storybook/addons": "^5.3.19",
-    "@storybook/react": "^5.3.19",
-    "babel-loader": "^8.1.0"
+    "@storybook/addon-a11y": "^5.2.1",
+    "@storybook/addon-actions": "^5.2.1",
+    "@storybook/addon-docs": "^5.2.1",
+    "@storybook/addon-knobs": "^5.2.1",
+    "@storybook/addon-links": "^5.2.1",
+    "@storybook/addons": "^5.2.1",
+    "@storybook/addon-storysource": "^5.2.1",
+    "@storybook/react": "^5.2.1",
+    "auto": "^7.4.3",
+    "prettier": "^1.18.2",
+    "storybook-chromatic": "^2.2.2"
   },
-  "gitHead": "3c9a11a9f7f519fda51dac1a177c83d9bac6ded7"
+  "description": "Learn Storybook design system",
+  "main": "dist/index.js",
+  "repository": "https://github.com/chromaui/learnstorybook-design-system.git",
+  "author": "Tom Coleman <tom@thesnail.org>",
+  "license": "MIT"
 }
