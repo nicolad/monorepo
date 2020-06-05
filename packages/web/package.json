@@ -1,7 +1,8 @@
 {
   "name": "@nicolad/web",
   "repository": "https://github.com/nicolad/monorepo.git",
-  "private": true,
+  "author": "Vadim Nicolai <nicolai.vadim@gmail.com>",
+  "private": false,
   "version": "0.0.9",
   "dependencies": {
     "@nicolad/ui": "^0.0.9",
