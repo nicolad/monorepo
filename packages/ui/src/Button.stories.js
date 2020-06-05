@@ -29,6 +29,7 @@ export const allButtons = () => (
     <Button appearance="primary" withCTA>
       Primary
     </Button>
+
     <Button appearance="secondary">Secondary</Button>
     <Button appearance="tertiary">Tertiary</Button>
     <Button appearance="outline">Outline</Button>

@@ -336,7 +336,7 @@ export function Button({
   withCTA,
   ...props
 }) {
-  const cta = withCTA && "| click button now!";
+  const cta = withCTA && " | click the button now!";
   const buttonInner = (
     <Fragment>
       <Text>
